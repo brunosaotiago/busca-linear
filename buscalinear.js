@@ -1,3 +1,4 @@
+// Como se trata de uma lista não ordenada, optei pela busca linear.
 function buscaLinear(array, elementoBuscado) {
     for (let i = 0; i < array.length; i++) {
         if (array[i] === elementoBuscado) {
